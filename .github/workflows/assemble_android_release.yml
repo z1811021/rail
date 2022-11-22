@@ -14,7 +14,7 @@ on:
 # 工作流环境变量
 env:
   # 应用的application_id
-  APP_ID: com.tarodemo
+  APP_ID: com.rail
   # 应用名称
   APP_NAME: 荣远监测
   # 打包类型
