@@ -1,0 +1,43 @@
+.index {
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.header {
+  font-size: 48px;
+  margin-top: 96px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.headerSub {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.headerSub2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 48px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerSub2_title {
+  margin-left: 10px;
+}
+
+.submitButton {
+  margin-top: 96px;
+  color: #fff;
+  border: 1px solid #6190e8;
+  background: #6190e8;
+}
+
+.submitButtonEmpty {
+  @extend .submitButton;
+  opacity: 0.5;
+}

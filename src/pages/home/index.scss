@@ -1,0 +1,17 @@
+.home {
+  width: 90vw;
+  margin: 0 auto;
+}
+.home_mine {
+  margin-top: 192px;
+  color: #fff;
+  border: 1px solid #6190e8;
+  height: 200px;
+  background: #6190e8;
+  line-height: 200px;
+  font-size: 48px;
+}
+.home_add {
+  @extend .home_mine;
+  background: #07c160;
+}

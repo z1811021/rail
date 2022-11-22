@@ -1,0 +1,79 @@
+.add {
+  // width: 100vw;
+  // margin: 0 auto;
+}
+.add_input {
+  width: 100vw;
+  font-size: 48px;
+  margin-top: 24px;
+  text-align: center;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.add_order_input {
+  display: flex;
+  width: 60%;
+}
+.add_order_input_long {
+  width: 90vw;
+}
+.add_input_around {
+  @extend .add_input;
+  justify-content: space-around;
+}
+.photo_button {
+  // display: none;
+  font-size: 24px;
+  width: 24vw;
+  background: #07c160;
+  color: #fff;
+  border: 1px solid #07c160;
+}
+.add_order_list_button {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.add_order_list_button_back {
+  color: #fff;
+  border: 1px solid #6190e8;
+  background: #6190e8;
+  font-size: 32px;
+  height: 100px;
+  line-height: 100px;
+  width: 28vw;
+}
+.add_order_list_button_submit {
+  @extend .add_order_list_button_back;
+  border: 1px solid #07c160;
+  background: #07c160;
+}
+.add_order_list_space_height {
+  width: 90vw;
+  height: 30px;
+}
+.picker {
+  position: relative;
+  //   padding: 40px 30px;
+  height: 80px;
+    padding: 10px 26px;
+
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 32px;
+}
+.page-section-title {
+  font-size: 32px;
+  margin: 10px 10px;
+}
