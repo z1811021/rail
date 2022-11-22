@@ -40,8 +40,6 @@ yarn-error.log
 # BUCK
 buck-out/
 \.buckd/
-*.keystore
-!debug.keystore
 
 # fastlane
 #
@@ -65,4 +63,4 @@ buck-out/
 /android/app/src/main/java/com/rail/generated
 
 ## taro-react-native-release
-!release/** 
+!release/**
