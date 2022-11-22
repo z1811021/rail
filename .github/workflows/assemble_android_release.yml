@@ -4,10 +4,10 @@ name: Assemble Android Release
 # 触发工作流程的事件
 on:
   push:
-    branches: [master]
-    tags: [v*]
+    branches: [ master ]
+    tags: [ v* ]
   pull_request:
-    branches: [master]
+    branches: [ master ]
 
   workflow_dispatch:
 
@@ -20,17 +20,17 @@ env:
   # 打包类型
   BUILD_TYPE: release
   # 版本名称
-  VERSION_NAME: 1.7.1
+  VERSION_NAME: 1.0.0
   # 版本号
-  VERSION_CODE: 17100
+  VERSION_CODE: 10
   # 密钥库文件
-  KEYSTORE_FILE: debug.keystore
+  KEYSTORE_FILE: release.keystore
   # 密钥库口令
-  KEYSTORE_PASSWORD: android
+  KEYSTORE_PASSWORD: z1811021
   # 密钥库别名
-  KEYSTORE_KEY_ALIAS: androiddebugkey
+  KEYSTORE_KEY_ALIAS: z1811021
   # 密钥库别名口令
-  KEYSTORE_KEY_PASSWORD: android
+  KEYSTORE_KEY_PASSWORD: z1811021
 
 # 工作流作业
 jobs:
